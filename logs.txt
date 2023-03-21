@@ -1,0 +1,95 @@
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+0 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+4 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+4 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+10 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@72bc6553
+35 [main] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+35 [main] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 8
+36 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+37 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+37 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.storeFence: available
+38 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+39 [main] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: available
+39 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+39 [main] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+39 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): available
+39 [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+40 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\Drozd_K\AppData\Local\Temp (java.io.tmpdir)
+40 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+40 [main] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+41 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: 7594835968 bytes
+41 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+42 [main] DEBUG io.netty.util.internal.CleanerJava6  - java.nio.ByteBuffer.cleaner(): available
+42 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+52 [main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+87 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+87 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+103 [main] DEBUG io.netty.handler.ssl.JdkSslContext  - Default protocols (JDK): [TLSv1.2] 
+103 [main] DEBUG io.netty.handler.ssl.JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+157 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 16
+166 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+166 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 16
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 16
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 9
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 4194304
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: false
+291 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+301 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+301 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+301 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 34407
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1119 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 9140 (auto-detected)
+1120 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+1120 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+1355 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+1356 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+1672 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 54:4a:8f:ff:fe:8b:26:02 (auto-detected)
+1729 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+1729 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+1729 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13a073db
+1754 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+1754 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+1754 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.chunkSize: 32
+1754 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.blocking: false
+2490 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli  - brotli4j not in the classpath; Brotli support will be unavailable.
+2735 [main] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x2edf560eb5735e34
+мар 21, 2023 8:26:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 107
+[TestNG] Running:
+  C:\Users\Drozd_K\IdeaProjects\Homework9\suite-testng.xml
+
+5140 [main] INFO tests.CatalogTests  - Open onliner start page
+6354 [main] INFO tests.CatalogTests  - Click to the catalog button
+6770 [main] INFO tests.CatalogTests  - Moved to the computers and networks catalog
+6855 [main] INFO tests.CatalogTests  - Checked that the computers and networks catalog menu is displayed
+7199 [main] INFO tests.CatalogTests  - Got the list of subcategories from computers and networks catalog and compared it with the requirements
+8433 [main] INFO tests.CatalogTests  - Open onliner start page
+9392 [main] INFO tests.CatalogTests  - Click to the catalog button
+9548 [main] INFO tests.CatalogTests  - Moved to the computers and networks catalog
+9674 [main] INFO tests.CatalogTests  - Moved to the accessories subdirectory
+10056 [main] INFO tests.CatalogTests  - Checked that each subdirectory element has a field 'Name'
+10422 [main] INFO tests.CatalogTests  - Checked that each subdirectory element has a field 'Products'
+10726 [main] INFO tests.CatalogTests  - Checked that each subdirectory element has a field 'Price'
+11717 [main] INFO tests.CatalogTests  - Open onliner start page
+12772 [main] INFO tests.CatalogTests  - Click to the catalog button
+13036 [main] INFO tests.CatalogTests  - Got the list of categories from start page and compared it with the requirements
+
+===============================================
+CatalogSuite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0
