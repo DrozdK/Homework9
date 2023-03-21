@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CatalogSuite" verbose="1" >
+    <test name="test for onliner catalog" >
+        <classes>
+            <class name="tests.CatalogTests" />
+        </classes>
+    </test>
+    <test name="test for onliner catalog mobile">
+        <classes>
+            <class name="tests.CatalogMobileAdaptationTests"/>
+        </classes>
+    </test>
+</suite>
