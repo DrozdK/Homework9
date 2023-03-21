@@ -8,7 +8,7 @@ import static common.ConfigSetter.HOLD_BROWSER_OPEN;
 
 public class BaseTest {
 
-    protected  WebDriver driver = CommonActions.createDriver("web");
+    protected  WebDriver driver = CommonActions.createDriver();
     protected CatalogHelper catalogHelper = new CatalogHelper(driver);
 
     public void close() {
