@@ -6,6 +6,7 @@ import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static constants.Constant.Url.ONLINER_START_PAGE;
 import static enums.CatalogItems.*;
@@ -29,7 +30,7 @@ public class CatalogTests extends BaseTest {
     @Test(priority = 3, groups = "catalogTests")
     public void shouldCheckCatalogItems() {
         //given
-        ArrayList<String> items = new ArrayList<>();
+        List<String> items = new ArrayList<>();
         items.add(ELECTRONIC.getText());
         items.add(COMPUTERS.getText());
         items.add(HOUSEHOLD_APPLIANCE.getText());
@@ -48,7 +49,7 @@ public class CatalogTests extends BaseTest {
     public void shouldCheckComputerCatalog() {
         //given
         int id= 2;
-        ArrayList<String> items = new ArrayList<>();
+        List<String> items = new ArrayList<>();
         items.add(LAPTOPS_COMPUTERS_MONITORS.getText());
         items.add(ACCESSORIES.getText());
         items.add(DATA_STORAGE.getText());
